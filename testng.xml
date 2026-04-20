@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ElementMasterSuite">
+
+<listeners>
+        <listener class-name="com.srm.listeners.TestListener"/>
+    </listeners>
+
+    <test name="All Tests">
+
+        <classes>
+            <class name="com.srm.tests.FormTest"/>
+            <class name="com.srm.tests.WebTableTest"/>
+            <class name="com.srm.tests.AlertTest"/>
+            <class name="com.srm.tests.FrameTest"/>
+            <class name="com.srm.tests.WidgetTest"/>
+        </classes>
+
+    </test>
+
+</suite>
